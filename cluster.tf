@@ -9,7 +9,7 @@ resource "digitalocean_kubernetes_cluster" "this" {
     name       = "${var.cluster_name}-autoscale-worker-pool"
     size       = "s-1vcpu-2gb"
     auto_scale = true
-    min_nodes  = 2
+    min_nodes  = 1
     max_nodes  = 4
   }
 }

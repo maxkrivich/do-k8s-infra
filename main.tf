@@ -3,10 +3,10 @@ terraform {
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = var.terraform_cloud_org
+    organization = "mkryvy-do"
 
     workspaces {
-      name = var.terraform_cloud_workspace
+      name = "do-k8s-infra-github"
     }
   }
 

@@ -10,6 +10,6 @@ resource "digitalocean_kubernetes_cluster" "this" {
     size       = "s-1vcpu-2gb"
     auto_scale = true
     min_nodes  = 2
-    max_nodes  = 4
+    max_nodes  = 3
   }
 }

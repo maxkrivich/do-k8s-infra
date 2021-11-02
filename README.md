@@ -1,5 +1,5 @@
 # DigitalOcean k8s infrastructure
-This repository contains bootstrap scripts and infrastruction definition of a kubernetes cluster.
+This repository contains bootstrap scripts and infrastructure definition of a kubernetes cluster.
 
 ## Local develompment
 In order to setup your develompent environment, please execute following commands in the terminal:
